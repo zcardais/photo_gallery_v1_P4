@@ -77,4 +77,10 @@ a {
   top:0;
   left:0;
   display:none;
+  text-align: center;
+}
+
+#overlay img {
+	margin-top: 10%;
+	max-width: 60%;
 }
