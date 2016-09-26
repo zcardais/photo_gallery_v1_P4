@@ -84,3 +84,7 @@ a {
 	margin-top: 10%;
 	max-width: 60%;
 }
+
+#overlay p {
+	color:white;
+}
