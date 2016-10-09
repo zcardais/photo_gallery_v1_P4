@@ -1,3 +1,6 @@
+# Project 4: Interactive Photo Gallery by Zach Cardais
+
+## Project Instructions
 **Create a web page using HTML and CSS. The page should have a title, a search box, and a place where a photo gallery will be placed.**
 
 **Add the provided images to the gallery using the design in the gallery_mockup.png file.**
@@ -37,3 +40,17 @@ Some browser options:
 + Mozilla Firefox
 + Internet Explorer/Edge
 + Safari
+
+
+## Extra Credit
+**Include a responsive design**
+
++ Make sure that the photos and layout adjusts for mobile-friendly experience.
+
+**Keyboard navigation for browsing photos**
+
+**Support for additional media types like YouTube videos.**
+
+**Write your own JavaScript code instead of using a jQuery plugin.**
+
+**Add animation effects when filtering the gallery of photos.**
