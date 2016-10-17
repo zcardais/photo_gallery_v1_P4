@@ -36,6 +36,12 @@ $overlay.click(function(){
 });
 
 
+
+// Init HideSeek Plugin
+$('#search').hideseek({
+  attribute: 'alt'
+});
+
 // Hide captions in portfolio grid view
 // Show captions in lightbox view
 // Hide captions
