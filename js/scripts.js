@@ -37,9 +37,11 @@ $overlay.click(function(){
 
 
 
-// Init HideSeek Plugin
-$('#search').hideseek({
-  attribute: 'alt'
+// HideSeek Plugin: Run javascript after DOM is initialized
+$(document).ready(function() {
+  $('#search').hideseek({
+    attribute: 'alt'
+  });
 });
 
 // Hide captions in portfolio grid view
