@@ -15,7 +15,7 @@ $overlay.append($caption);
 $("body").append($overlay);
 
 //Capture the click event on a link to an image.
-$("#imageGallery a").click(function(event){
+$("#imageGallery .galleryImage").click(function(event){
   event.preventDefault();
   var imageLocation = $(this).attr("href");
   //Update overlay with the image linked to the link
@@ -37,8 +37,15 @@ $overlay.click(function(){
 
 
 
-// HideSeek Plugin: Run javascript after DOM is initialized
+
 $(document).ready(function() {
+  // Colorbox Captions
+  $(document).bind('cbox_complete', function(){
+    var $current = $.colorbox.element();
+    console.log($current.colorbox.data());
+  });
+
+  // HideSeek Plugin: Run javascript after DOM is initialized
   $('#search').hideseek({
     attribute: 'data-alt'
   });
