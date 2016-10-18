@@ -40,7 +40,7 @@ $overlay.click(function(){
 // HideSeek Plugin: Run javascript after DOM is initialized
 $(document).ready(function() {
   $('#search').hideseek({
-    attribute: 'alt'
+    attribute: 'data-alt'
   });
 });
 
