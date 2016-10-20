@@ -35,15 +35,12 @@ $overlay.click(function(){
   $(this).hide();
 });
 
-
-
-
 $(document).ready(function() {
-  // Colorbox Captions
-  $(document).bind('cbox_complete', function(){
-    var $current = $.colorbox.element();
-    console.log($current.colorbox.data());
-  });
+  // Lightbox Plugin
+  lightbox.option({
+      'wrapAround': true,
+      'showImageNumberLabel': false,
+    })
 
   // HideSeek Plugin: Run javascript after DOM is initialized
   $('#search').hideseek({

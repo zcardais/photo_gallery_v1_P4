@@ -102,3 +102,13 @@ a {
 #overlay p {
 	color:white;
 }
+
+.lb-data .lb-details {
+	text-align: center;
+	font-size: 1em;
+}
+
+.lb-data .lb-caption {
+	font-size: 1em;
+	text-align: center;
+}
